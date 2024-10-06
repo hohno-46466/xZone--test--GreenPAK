@@ -10,9 +10,10 @@ A repository for testing and debugging GreenPAK
      │   └──  README.md
      └──  workspace/
          ├──  README.md
-         └──  test001/
+         ├──  aki/
+         └──  hohno/
      
-     5 directories, 4 files (Sun Oct  6 11:24:46 JST 2024)
+     6 directories, 4 files (Sun Oct  6 11:28:29 JST 2024)
 
 Note: URL = https://github.com/hohno-46466/xZone--test--GreenPAK
 
