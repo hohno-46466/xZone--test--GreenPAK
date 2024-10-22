@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GPDProject version="33" oldestCompatibleVersion="32" GPDVersion="6.44.001" lastChange="22 Oct 2024 08:30:04" projectChecksumState="1" projectChecksum="6c53e980">
+<GPDProject version="33" oldestCompatibleVersion="32" GPDVersion="6.44.001" lastChange="22 Oct 2024 09:54:38" projectChecksumState="1" projectChecksum="ade02ce9">
     <generalProjectSettings/>
     <chip family="04" type="06" friendlyName="GreenPAK 6" partNumber="36" package="7">
         <nvmData registerLenght="2048">52 E9 BD 6A A5 56 9C 99 7A 68 9A 61 93 28 A5 53 51 52 68 8B F8 16 10 19 A4 2B BA 29 7B 1A 6E 6A AA 55 5A A0 AE 9B 4A 86 51 58 1E 0 0 0 0 0 0 0 AC 95 FA 40 0 0 5C E1 E6 B4 0 F0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 80 50 0 80 80 51 51 0 0 84 84 25 0 21 50 30 30 30 30 0 0 0 0 0 0 0 0 0 0 0 0 7 3 0 4 0 14 22 30 C 0 0 0 0 0 0 0 B8 47 B 0 0 0 AC 0 7F 34 58 11 67 1A 0 0 2 FF 9F 29 2 3 0 54 7F E2 8 30 70 22 5 11 6C 0 12 6 21 EF 22 1 7 64 F2 20 5 A8 40 12 D 8 6 60 0 0 2 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 A5</nvmData>
@@ -92,7 +92,7 @@
         </IOPad>
         <IOPad id="15" useCaseMode="4">
             <item id="15" caption="PIN 16 (IO10)">
-                <graphics pos="(-532.91,710.24)" angle="0" flipping="0" hidden="0" tOrigin="(20.00,10.00)"/>
+                <graphics pos="(-523.94,740.75)" angle="0" flipping="0" hidden="0" tOrigin="(20.00,10.00)"/>
                 <textLabel pos="(-26.74,-36.83)" angle="0.00" textColor="#ffff00ff" backgroundColor="#14141464">NC (Reserved for
 OSC1 EXT CLK)</textLabel>
             </item>
@@ -155,7 +155,7 @@ OSC1 EXT CLK)</textLabel>
             <graphics pos="(-369.91,345.48)" angle="0" flipping="0" hidden="0" tOrigin="(30.00,20.00)"/>
         </item>
         <item id="31" caption="I2C">
-            <graphics pos="(405.72,-73.07)" angle="0" flipping="0" hidden="0" tOrigin="(25.00,45.00)"/>
+            <graphics pos="(-360.57,-73.07)" angle="0" flipping="0" hidden="0" tOrigin="(25.00,45.00)"/>
         </item>
         <item id="32" caption="TEMP SENSOR">
             <graphics pos="(320.00,370.00)" angle="0" flipping="0" hidden="1" tOrigin="(28.00,15.00)"/>
@@ -357,10 +357,10 @@ OSC1 EXT CLK)</textLabel>
             </item>
         </EEPROM>
         <wire output="147" input="111" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" lineType="2" protected="1" CWLid="0" wireText="NET0" wireState="0">
-            <points>(-471.00,-43.00); (385.00,-43.00)</points>
+            <points>(-471.00,-43.00); (-382.00,-43.00)</points>
         </wire>
         <wire output="148" input="112" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" lineType="2" protected="1" CWLid="1" wireText="NET1" wireState="0">
-            <points>(-471.00,14.00); (369.00,14.00); (369.00,-13.00); (385.00,-13.00)</points>
+            <points>(-471.00,14.00); (-396.00,14.00); (-396.00,-13.00); (-382.00,-13.00)</points>
         </wire>
         <wire output="48" input="546" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="14" wireText="nSCL2" wireState="0">
             <points>(-290.00,736.00); (-94.00,736.00)</points>
@@ -381,7 +381,7 @@ OSC1 EXT CLK)</textLabel>
             <points>(-74.00,606.00); (-51.00,606.00); (-51.00,694.00); (-111.00,694.00); (-111.00,716.00); (-94.00,716.00)</points>
         </wire>
         <wire output="145" input="528" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="2" wireText="SCL2" wireState="0">
-            <points>(-471.00,643.00); (-448.00,643.00); (-448.00,766.00); (-512.00,766.00); (-514.00,750.00)</points>
+            <points>(-471.00,643.00); (-456.00,643.00); (-456.00,794.00); (-505.00,794.00); (-505.00,781.00)</points>
         </wire>
         <wire output="191" input="630" autoRouting="1" pen="#2dffaaff;1.00;1;32;128" lineType="3" protected="0" CWLid="10" wireText="NET10" wireState="0">
             <points>(63.00,621.00); (69.00,621.00); (69.00,527.00); (-148.00,527.00); (-148.00,521.00)</points>
@@ -417,7 +417,7 @@ OSC1 EXT CLK)</textLabel>
             <points>(71.00,486.00); (658.00,486.00)</points>
         </wire>
         <wire output="54" input="694" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" lineType="2" protected="1" CWLid="29" wireText="NET29" wireState="0">
-            <points>(-290.00,366.00); (-243.00,366.00); (-243.00,114.00); (-188.00,114.00)</points>
+            <points>(-290.00,366.00); (-250.18,366.00); (-250.18,114.00); (-188.00,114.00)</points>
         </wire>
         <wire output="206" input="676" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" lineType="2" protected="1" CWLid="3" wireText="dlySDA2" wireState="0">
             <points>(-87.00,119.00); (-11.00,119.00)</points>
@@ -507,7 +507,7 @@ OSC1 EXT CLK)</textLabel>
             <points/>
         </wire>
         <wire output="145" input="641" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="2" wireText="SCL2" wireState="0">
-            <points>(-471.00,643.00); (-244.00,643.00); (-244.00,376.00); (-183.00,376.00)</points>
+            <points>(-471.00,643.00); (-267.33,643.00); (-267.33,376.00); (-183.00,376.00)</points>
         </wire>
         <wire output="199" input="493" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="43" wireText="NET43" wireState="0">
             <points>(480.00,781.00); (658.00,781.00)</points>
