@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GPDProject version="33" oldestCompatibleVersion="32" GPDVersion="6.44.001" lastChange="23 Oct 2024 01:52:28" projectChecksumState="1" projectChecksum="677efbe9">
+<GPDProject version="33" oldestCompatibleVersion="32" GPDVersion="6.44.001" lastChange="23 Oct 2024 04:20:28" projectChecksumState="1" projectChecksum="6d7696b0">
     <generalProjectSettings/>
     <chip family="04" type="06" friendlyName="GreenPAK 6" partNumber="36" package="7">
         <nvmData registerLenght="2048">2B 93 32 2B 93 32 A 2 0 0 0 0 0 0 0 0 0 0 0 B0 24 0 0 0 0 0 A4 92 81 2 C0 8A 15 2A 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 80 A A0 0 0 0 0 4 38 40 4 3C 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 30 30 0 30 30 58 58 0 0 30 30 30 0 58 58 58 58 51 30 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14 22 30 C 0 0 0 0 0 0 0 82 82 0 0 AC 0 0 0 0 0 0 0 AC 0 0 0 0 0 0 20 0 1 0 14 1 10 8 60 1 10 0 8 14 1 10 8 60 1 10 0 8 0 0 2 1 0 0 2 0 1 0 0 2 0 1 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 A5</nvmData>
@@ -378,7 +378,7 @@
             <points/>
         </wire>
         <wire output="197" input="506" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="22" wireText="NET22" wireState="0">
-            <points>(242.00,827.00); (248.00,827.00); (248.00,652.00); (-171.00,652.00); (-171.00,646.00)</points>
+            <points>(242.00,827.00); (248.00,827.00); (248.00,691.70); (-171.00,691.70); (-171.00,646.00)</points>
         </wire>
         <wire output="200" input="667" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" lineType="2" protected="1" CWLid="21" wireText="NET21" wireState="0">
             <points>(90.00,1028.00); (166.00,1028.00)</points>
@@ -417,10 +417,10 @@
             <points>(396.00,146.00); (162.00,146.00); (162.00,216.00); (168.00,216.00)</points>
         </wire>
         <wire output="195" input="544" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="6" wireText="NET6" wireState="0">
-            <points>(242.00,433.00); (386.00,433.00); (386.00,325.00); (392.00,325.00)</points>
+            <points>(242.00,433.00); (376.29,433.00); (376.29,325.00); (392.00,325.00)</points>
         </wire>
         <wire output="195" input="546" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="6" wireText="NET6" wireState="0">
-            <points>(242.00,433.00); (386.00,433.00); (386.00,481.00); (392.00,481.00)</points>
+            <points>(242.00,433.00); (377.18,433.00); (377.18,481.00); (392.00,481.00)</points>
         </wire>
         <wire output="167" input="635" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="17" wireText="NET17" wireState="0">
             <points>(392.00,795.00); (158.00,795.00); (158.00,816.00); (164.00,816.00)</points>
@@ -456,7 +456,7 @@
             <points>(-127.00,517.00); (142.00,517.00); (142.00,444.00); (164.00,444.00)</points>
         </wire>
         <wire output="193" input="509" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="5" wireText="NET5" wireState="0">
-            <points>(246.00,227.00); (305.41,227.00); (305.41,547.00); (-171.00,547.00); (-171.00,541.00)</points>
+            <points>(246.00,227.00); (305.41,227.00); (305.41,562.88); (-171.00,562.88); (-171.00,541.00)</points>
         </wire>
         <wire output="154" input="548" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="7" wireText="NET7" wireState="0">
             <points>(602.00,440.00); (490.00,440.00); (490.00,159.00); (467.00,159.00)</points>
@@ -471,16 +471,16 @@
             <points>(463.00,936.00); (647.00,936.00); (647.00,922.00)</points>
         </wire>
         <wire output="156" input="543" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="16" wireText="NET16" wireState="0">
-            <points>(602.00,531.00); (370.00,531.00); (370.00,1058.00); (392.00,1058.00)</points>
+            <points>(602.00,531.00); (342.65,531.00); (342.65,1058.00); (392.00,1058.00)</points>
         </wire>
         <wire output="156" input="262" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="16" wireText="NET16" wireState="0">
-            <points>(602.00,531.00); (370.00,531.00); (370.00,926.00); (392.00,926.00)</points>
+            <points>(602.00,531.00); (342.65,531.00); (342.65,926.00); (392.00,926.00)</points>
         </wire>
         <wire output="156" input="547" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="16" wireText="NET16" wireState="0">
-            <points>(602.00,531.00); (370.00,531.00); (370.00,465.00); (392.00,465.00)</points>
+            <points>(602.00,531.00); (341.77,531.00); (341.77,465.00); (392.00,465.00)</points>
         </wire>
         <wire output="156" input="545" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="16" wireText="NET16" wireState="0">
-            <points>(602.00,531.00); (370.00,531.00); (370.00,305.00); (392.00,305.00)</points>
+            <points>(602.00,531.00); (341.77,531.00); (341.77,305.00); (392.00,305.00)</points>
         </wire>
         <textLabel pos="(629.27,858.51)" angle="0.00" textColor="#ffff00ff" backgroundColor="#14141464">SCLz</textLabel>
     </chip>
@@ -488,7 +488,7 @@
         <settings>
             <autoApply value="0"/>
             <programmingOptions programNVM="1" programEEPROM="0"/>
-            <platformSelector id="1"/>
+            <platformSelector id="4"/>
         </settings>
         <platform id="0" friendlyName="GreenPAK DIP Development Platform">
             <lastConfiguration modified="0">
@@ -508,7 +508,7 @@
                 <SaveEmulator Name="Default">
                     <PowerOptions synced="0"/>
                     <ExternalChipConnectionSource source="0"/>
-                    <PowerSwitch internalPower="1" externalPower="0"/>
+                    <PowerSwitch internalPower="1" externalPower="1"/>
                     <ExpansionConnector>1:1;2:1;3:1;4:1;5:1;6:1;7:1;8:1;9:1;10:1;11:0;12:1;13:1;14:1;15:1;16:1;17:1;18:1;19:1;20:1</ExpansionConnector>
                     <TestPoints>
                         <TPC ID="1" Type="8">
