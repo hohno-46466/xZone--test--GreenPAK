@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GPDProject version="33" oldestCompatibleVersion="32" GPDVersion="6.44.001" lastChange="22 Oct 2024 09:54:38" projectChecksumState="1" projectChecksum="ade02ce9">
+<GPDProject version="33" oldestCompatibleVersion="32" GPDVersion="6.44.001" lastChange="24 Oct 2024 08:28:48" projectChecksumState="1" projectChecksum="52b16a96">
     <generalProjectSettings/>
     <chip family="04" type="06" friendlyName="GreenPAK 6" partNumber="36" package="7">
         <nvmData registerLenght="2048">52 E9 BD 6A A5 56 9C 99 7A 68 9A 61 93 28 A5 53 51 52 68 8B F8 16 10 19 A4 2B BA 29 7B 1A 6E 6A AA 55 5A A0 AE 9B 4A 86 51 58 1E 0 0 0 0 0 0 0 AC 95 FA 40 0 0 5C E1 E6 B4 0 F0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 80 50 0 80 80 51 51 0 0 84 84 25 0 21 50 30 30 30 30 0 0 0 0 0 0 0 0 0 0 0 0 7 3 0 4 0 14 22 30 C 0 0 0 0 0 0 0 B8 47 B 0 0 0 AC 0 7F 34 58 11 67 1A 0 0 2 FF 9F 29 2 3 0 54 7F E2 8 30 70 22 5 11 6C 0 12 6 21 EF 22 1 7 64 F2 20 5 A8 40 12 D 8 6 60 0 0 2 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 A5</nvmData>
@@ -604,7 +604,7 @@ OSC1 EXT CLK)</textLabel>
         <settings>
             <autoApply value="0"/>
             <programmingOptions programNVM="1" programEEPROM="0"/>
-            <platformSelector id="4"/>
+            <platformSelector id="3"/>
         </settings>
         <platform id="0" friendlyName="GreenPAK DIP Development Platform">
             <lastConfiguration modified="0">
@@ -956,30 +956,6 @@ OSC1 EXT CLK)</textLabel>
                     </pinProbe>
                     <pinProbe instrumentId="20" measurementFlags="1">
                         <IdDto category="0" componentType="2" componentNumber="16" pinNumber="1"/>
-                    </pinProbe>
-                    <pinProbe instrumentId="21" measurementFlags="1">
-                        <IdDto category="100" componentType="45" componentNumber="0" pinNumber="17"/>
-                    </pinProbe>
-                    <pinProbe instrumentId="22" measurementFlags="1">
-                        <IdDto category="0" componentType="2" componentNumber="17" pinNumber="1"/>
-                    </pinProbe>
-                    <pinProbe instrumentId="23" measurementFlags="1">
-                        <IdDto category="100" componentType="45" componentNumber="0" pinNumber="18"/>
-                    </pinProbe>
-                    <pinProbe instrumentId="24" measurementFlags="1">
-                        <IdDto category="0" componentType="2" componentNumber="18" pinNumber="1"/>
-                    </pinProbe>
-                    <pinProbe instrumentId="25" measurementFlags="1">
-                        <IdDto category="100" componentType="45" componentNumber="0" pinNumber="19"/>
-                    </pinProbe>
-                    <pinProbe instrumentId="26" measurementFlags="1">
-                        <IdDto category="0" componentType="2" componentNumber="19" pinNumber="1"/>
-                    </pinProbe>
-                    <pinProbe instrumentId="27" measurementFlags="1">
-                        <IdDto category="100" componentType="45" componentNumber="0" pinNumber="20"/>
-                    </pinProbe>
-                    <pinProbe instrumentId="28" measurementFlags="1">
-                        <IdDto category="0" componentType="2" componentNumber="20" pinNumber="1"/>
                     </pinProbe>
                     <pinProbe instrumentId="29" measurementFlags="1">
                         <IdDto category="0" componentType="18" componentNumber="0" pinNumber="0"/>
@@ -1370,30 +1346,6 @@ OSC1 EXT CLK)</textLabel>
                     </waveform>
                     <waveform>
                         <waveformSetup penColor="#af58ff" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
-                        <WaveformIdData analysisType="0" pinIdStr="0;2;17;1" xAxisBinding="0;;-1;-1;-1">
-                            <parameters/>
-                        </WaveformIdData>
-                    </waveform>
-                    <waveform>
-                        <waveformSetup penColor="#fda740" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
-                        <WaveformIdData analysisType="0" pinIdStr="0;2;18;1" xAxisBinding="0;;-1;-1;-1">
-                            <parameters/>
-                        </WaveformIdData>
-                    </waveform>
-                    <waveform>
-                        <waveformSetup penColor="#46f8ff" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
-                        <WaveformIdData analysisType="0" pinIdStr="0;2;19;1" xAxisBinding="0;;-1;-1;-1">
-                            <parameters/>
-                        </WaveformIdData>
-                    </waveform>
-                    <waveform>
-                        <waveformSetup penColor="#26e056" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
-                        <WaveformIdData analysisType="0" pinIdStr="0;2;20;1" xAxisBinding="0;;-1;-1;-1">
-                            <parameters/>
-                        </WaveformIdData>
-                    </waveform>
-                    <waveform>
-                        <waveformSetup penColor="#af58ff" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
                         <WaveformIdData analysisType="0" pinIdStr="0;18;0;0" xAxisBinding="0;;-1;-1;-1">
                             <parameters/>
                         </WaveformIdData>
@@ -1779,30 +1731,6 @@ OSC1 EXT CLK)</textLabel>
                     <waveform>
                         <waveformSetup penColor="#f66a21" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
                         <WaveformIdData analysisType="0" pinIdStr="100;45;0;16" xAxisBinding="0;;-1;-1;-1">
-                            <parameters/>
-                        </WaveformIdData>
-                    </waveform>
-                    <waveform>
-                        <waveformSetup penColor="#9bc74d" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
-                        <WaveformIdData analysisType="0" pinIdStr="100;45;0;17" xAxisBinding="0;;-1;-1;-1">
-                            <parameters/>
-                        </WaveformIdData>
-                    </waveform>
-                    <waveform>
-                        <waveformSetup penColor="#fd6bfa" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
-                        <WaveformIdData analysisType="0" pinIdStr="100;45;0;18" xAxisBinding="0;;-1;-1;-1">
-                            <parameters/>
-                        </WaveformIdData>
-                    </waveform>
-                    <waveform>
-                        <waveformSetup penColor="#f66a21" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
-                        <WaveformIdData analysisType="0" pinIdStr="100;45;0;19" xAxisBinding="0;;-1;-1;-1">
-                            <parameters/>
-                        </WaveformIdData>
-                    </waveform>
-                    <waveform>
-                        <waveformSetup penColor="#5cd4ae" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
-                        <WaveformIdData analysisType="0" pinIdStr="100;45;0;20" xAxisBinding="0;;-1;-1;-1">
                             <parameters/>
                         </WaveformIdData>
                     </waveform>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GPDProject version="33" oldestCompatibleVersion="32" GPDVersion="6.44.001" lastChange="23 Oct 2024 04:29:03" projectChecksumState="1" projectChecksum="55dbced1">
+<GPDProject version="33" oldestCompatibleVersion="32" GPDVersion="6.44.001" lastChange="27 Oct 2024 04:54:57" projectChecksumState="1" projectChecksum="317be378">
     <generalProjectSettings/>
     <chip family="04" type="06" friendlyName="GreenPAK 6" partNumber="36" package="7">
-        <nvmData registerLenght="2048">0 0 0 0 0 0 0 0 0 0 0 0 0 BE 6D 97 5F 92 A4 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 15 0 98 0 50 31 0 0 0 0 E0 3 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 30 30 0 30 30 30 30 0 0 80 30 30 0 30 30 30 30 30 33 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 14 22 30 C B8 0 0 0 0 0 0 0 0 0 0 0 0 0 FE 7F 7F 0 0 0 0 0 0 0 0 0 20 0 1 0 0 0 2 1 0 0 2 0 1 0 0 2 1 0 0 2 0 1 2 0 19 A 19 0 45 8 5 21 0 89 0 7 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 A5</nvmData>
+        <nvmData registerLenght="2048">0 0 0 0 0 0 0 0 0 0 0 0 0 BE 6D 97 5F 92 A4 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9 0 15 0 98 0 50 31 0 0 0 0 E0 3 0 0 0 0 0 0 0 0 0 17 0 0 0 30 FE E6 BF FD 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 30 30 0 30 30 30 30 0 0 84 30 30 0 30 4 4 4 50 33 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 17 22 30 C C4 0 0 0 0 0 0 0 0 0 0 0 0 0 80 7F 7F 0 0 0 0 0 0 0 0 0 20 0 1 0 0 0 2 1 0 0 2 0 1 0 0 2 1 10 0 49 8 1 2 0 19 9 19 0 45 8 5 21 0 89 0 7 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 A5</nvmData>
         <eepromData id="0">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</eepromData>
-        <checksum crc32="0xF805054C" version="7"/>
+        <checksum crc32="0x9FE45035" version="7"/>
         <VDDItem id="0">
             <item id="0" caption="VDD (PIN 1)">
-                <graphics pos="(697.64,-84.62)" angle="0" flipping="0" hidden="0" tOrigin="(20.00,10.00)"/>
+                <graphics pos="(520.34,-95.08)" angle="0" flipping="1" hidden="0" tOrigin="(20.00,10.00)"/>
             </item>
         </VDDItem>
         <IOPad id="1" useCaseMode="0">
@@ -72,7 +72,7 @@
         </IOPad>
         <VDDItem id="13">
             <item id="13" caption="VDD2 (PIN 14)">
-                <graphics pos="(436.63,-196.14)" angle="0" flipping="1" hidden="0" tOrigin="(20.00,10.00)"/>
+                <graphics pos="(520.34,-196.14)" angle="0" flipping="1" hidden="0" tOrigin="(20.00,10.00)"/>
             </item>
         </VDDItem>
         <IOPad id="14" useCaseMode="0">
@@ -80,19 +80,19 @@
                 <graphics pos="(770.00,100.00)" angle="0" flipping="1" hidden="1" tOrigin="(20.00,10.00)"/>
             </item>
         </IOPad>
-        <IOPad id="15" useCaseMode="0">
+        <IOPad id="15" useCaseMode="2">
             <item id="15" caption="PIN 16 (IO10)">
-                <graphics pos="(770.00,30.00)" angle="0" flipping="1" hidden="1" tOrigin="(20.00,10.00)"/>
+                <graphics pos="(350.00,-93.73)" angle="270" flipping="1" hidden="0" tOrigin="(20.00,10.00)"/>
             </item>
         </IOPad>
-        <IOPad id="16" useCaseMode="0">
+        <IOPad id="16" useCaseMode="2">
             <item id="16" caption="PIN 17 (IO11)">
-                <graphics pos="(300.00,-90.00)" angle="270" flipping="1" hidden="0" tOrigin="(20.00,10.00)"/>
+                <graphics pos="(258.17,-93.73)" angle="270" flipping="1" hidden="0" tOrigin="(20.00,10.00)"/>
             </item>
         </IOPad>
-        <IOPad id="17" useCaseMode="0">
+        <IOPad id="17" useCaseMode="2">
             <item id="17" caption="PIN 18 (IO12)">
-                <graphics pos="(150.00,-90.00)" angle="270" flipping="1" hidden="0" tOrigin="(20.00,10.00)"/>
+                <graphics pos="(136.93,-90.87)" angle="270" flipping="1" hidden="0" tOrigin="(20.00,10.00)"/>
             </item>
         </IOPad>
         <IOPad id="18" useCaseMode="1">
@@ -127,7 +127,7 @@
             <graphics pos="(320.00,190.00)" angle="0" flipping="0" hidden="1" tOrigin="(17.50,10.00)"/>
         </item>
         <item id="27" caption="POR">
-            <graphics pos="(407.79,-110.69)" angle="0" flipping="0" hidden="0" tOrigin="(17.50,10.00)"/>
+            <graphics pos="(658.74,54.00)" angle="0" flipping="0" hidden="0" tOrigin="(17.50,10.00)"/>
         </item>
         <item id="28" caption="OSC0">
             <graphics pos="(-68.91,172.93)" angle="0" flipping="0" hidden="0" tOrigin="(30.00,40.00)"/>
@@ -218,7 +218,7 @@
             <graphics pos="(-500.00,460.00)" angle="0" flipping="0" hidden="1" tOrigin="(155.00,60.00)"/>
         </item>
         <item id="50" caption="MF4 (3-bit LUT10, DFF/LATCH13, 8-bit CNT4/DLY4)">
-            <graphics pos="(430.00,-30.00)" angle="0" flipping="0" hidden="1" tOrigin="(155.00,60.00)"/>
+            <graphics pos="(194.73,260.17)" angle="0" flipping="0" hidden="1" tOrigin="(155.00,60.00)"/>
         </item>
         <item id="51" caption="MF5 (3-bit LUT11, DFF/LATCH14, 8-bit CNT5/DLY5)">
             <graphics pos="(37.00,166.00)" angle="0" flipping="0" hidden="1" tOrigin="(155.00,60.00)"/>
@@ -283,7 +283,7 @@
         </CNTDLY>
         <LUT id="66" regularShape="0" mode="0">
             <item id="66" caption="3-bit LUT10 (MF4)">
-                <graphics pos="(565.00,15.00)" angle="90" flipping="0" hidden="1" tOrigin="(20.00,15.00)"/>
+                <graphics pos="(329.73,305.17)" angle="90" flipping="0" hidden="1" tOrigin="(20.00,15.00)"/>
             </item>
         </LUT>
         <item id="67" caption="DFF/LATCH13 (MF4)">
@@ -291,7 +291,7 @@
         </item>
         <CNTDLY id="68" externalClockFrequence="0" externalClockFreqUnit="kHz">
             <item id="68" caption="8-bit CNT4/DLY4 (MF4)">
-                <graphics pos="(481.50,14.50)" angle="0" flipping="0" hidden="1" tOrigin="(30.00,16.00)"/>
+                <graphics pos="(319.73,304.17)" angle="0" flipping="0" hidden="0" tOrigin="(30.00,16.00)"/>
             </item>
         </CNTDLY>
         <LUT id="69" regularShape="0" mode="0">
@@ -378,9 +378,6 @@
         <wire output="164" input="651" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="15" wireText="NET15" wireState="0">
             <points>(116.00,48.00); (138.00,48.00); (138.00,124.00); (165.00,124.00)</points>
         </wire>
-        <wire output="164" input="643" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="15" wireText="NET15" wireState="0">
-            <points>(116.00,48.00); (138.00,48.00); (138.00,231.00); (224.00,231.00)</points>
-        </wire>
         <wire output="39" input="86" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="-1" wireText="POR" wireState="1">
             <points/>
         </wire>
@@ -393,7 +390,7 @@
         <wire output="83" input="559" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="17" wireText="NET17" wireState="0">
             <points>(140.00,-15.00); (146.00,-15.00); (146.00,21.00); (17.37,21.00); (17.37,37.00); (38.00,37.00)</points>
         </wire>
-        <wire output="83" input="558" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="17" wireText="NET17" wireState="0">
+        <wire output="83" input="558" autoRouting="0" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="17" wireText="NET17" wireState="0">
             <points>(140.00,-15.00); (146.00,-15.00); (146.00,21.00); (16.55,21.00); (16.55,48.00); (38.00,48.00)</points>
         </wire>
         <wire output="31" input="557" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="14" wireText="NET14" wireState="0">
@@ -402,12 +399,39 @@
         <wire output="166" input="515" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="12" wireText="NET12" wireState="0">
             <points>(497.00,225.00); (589.00,225.00)</points>
         </wire>
+        <wire output="0" input="534" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" lineType="2" protected="1" CWLid="-1" wireText="VDD" wireState="1">
+            <points/>
+        </wire>
+        <wire output="164" input="643" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="15" wireText="NET15" wireState="0">
+            <points>(116.00,48.00); (150.00,48.00); (150.00,231.00); (224.00,231.00)</points>
+        </wire>
+        <wire output="83" input="533" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="17" wireText="NET17" wireState="0">
+            <points>(140.00,-15.00); (152.00,-15.00); (152.00,-39.00)</points>
+        </wire>
+        <wire output="0" input="531" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" lineType="2" protected="1" CWLid="-1" wireText="VDD" wireState="1">
+            <points/>
+        </wire>
+        <wire output="206" input="530" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="10" wireText="NET10" wireState="0">
+            <points>(266.00,119.00); (274.00,119.00); (274.00,-42.00)</points>
+        </wire>
+        <wire output="0" input="528" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" lineType="2" protected="1" CWLid="-1" wireText="VDD" wireState="1">
+            <points/>
+        </wire>
+        <wire output="44" input="638" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" lineType="2" protected="1" CWLid="-1" wireText="OSC0 CLK /512" wireState="1">
+            <points/>
+        </wire>
+        <wire output="202" input="639" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="11" wireText="NET11" wireState="0">
+            <points>(325.00,226.00); (342.00,226.00); (342.00,276.96); (282.00,276.96); (282.00,325.00); (299.00,325.00)</points>
+        </wire>
+        <wire output="200" input="527" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="18" wireText="NET18" wireState="0">
+            <points>(400.00,320.00); (414.00,320.00); (414.00,249.00); (534.00,249.00); (534.00,-27.00); (366.00,-27.00); (366.00,-42.00)</points>
+        </wire>
     </chip>
     <emulatorConfiguration version="4" oldestCompatibleVersion="4">
         <settings>
             <autoApply value="0"/>
             <programmingOptions programNVM="1" programEEPROM="0"/>
-            <platformSelector id="3"/>
+            <platformSelector id="4"/>
         </settings>
         <platform id="0" friendlyName="GreenPAK DIP Development Platform">
             <lastConfiguration modified="0">
@@ -622,7 +646,7 @@
         <draftPreset>
             <simulationPreset index="-1" name="Default" customGroupLayout="true" customParametricDcGroupLayout="false">
                 <transientAnalyses>
-                    <transientAnalysis stopTime="15" maxTimeStep="1m" startTime="0" stepTime="1m" temperature="25" useInitialConditions="false" vdd="3.3"/>
+                    <transientAnalysis stopTime="60" maxTimeStep="1m" startTime="0" stepTime="1m" temperature="25" useInitialConditions="false" vdd="3.3"/>
                 </transientAnalyses>
                 <parametricDcAnalyses/>
                 <pinProbes>
@@ -671,18 +695,31 @@
                     <pinProbe instrumentId="15" measurementFlags="1">
                         <IdDto category="1" componentType="7" componentNumber="4" pinNumber="0"/>
                     </pinProbe>
+                    <pinProbe instrumentId="16" measurementFlags="1">
+                        <IdDto category="2" componentType="16" componentNumber="7" pinNumber="0"/>
+                    </pinProbe>
+                    <pinProbe instrumentId="17" measurementFlags="1">
+                        <IdDto category="2" componentType="16" componentNumber="4" pinNumber="0"/>
+                    </pinProbe>
                 </pinProbes>
                 <groups>
-                    <group name="V5 -&gt; n+" customGroupLayout="true">
+                    <group name="GreenPAK -&gt; PIN 10 &lt;- EXT. OUT" customGroupLayout="true">
                         <waveforms>
-                            <WaveformIdData analysisType="0" pinIdStr="5;43;5;0" xAxisBinding="0;;-1;-1;-1">
+                            <WaveformIdData analysisType="0" pinIdStr="100;45;0;10" xAxisBinding="0;;-1;-1;-1">
                                 <parameters/>
                             </WaveformIdData>
                         </waveforms>
                     </group>
-                    <group name="GreenPAK -&gt; POR -&gt; OUT [POR]" customGroupLayout="true">
+                    <group name="GreenPAK -&gt; PIN 20 -&gt; OUT (2)" customGroupLayout="true">
                         <waveforms>
-                            <WaveformIdData analysisType="0" pinIdStr="0;20;0;0" xAxisBinding="0;;-1;-1;-1">
+                            <WaveformIdData analysisType="0" pinIdStr="0;2;20;1" xAxisBinding="0;;-1;-1;-1">
+                                <parameters/>
+                            </WaveformIdData>
+                        </waveforms>
+                    </group>
+                    <group name="GreenPAK -&gt; A CMP0H -&gt; OUT" customGroupLayout="true">
+                        <waveforms>
+                            <WaveformIdData analysisType="0" pinIdStr="0;3;0;0" xAxisBinding="0;;-1;-1;-1">
                                 <parameters/>
                             </WaveformIdData>
                         </waveforms>
@@ -701,13 +738,6 @@
                             </WaveformIdData>
                         </waveforms>
                     </group>
-                    <group name="GreenPAK -&gt; A CMP0H -&gt; OUT" customGroupLayout="true">
-                        <waveforms>
-                            <WaveformIdData analysisType="0" pinIdStr="0;3;0;0" xAxisBinding="0;;-1;-1;-1">
-                                <parameters/>
-                            </WaveformIdData>
-                        </waveforms>
-                    </group>
                     <group name="GreenPAK -&gt; 3-L3 -&gt; OUT" customGroupLayout="true">
                         <waveforms>
                             <WaveformIdData analysisType="0" pinIdStr="1;7;3;0" xAxisBinding="0;;-1;-1;-1">
@@ -715,9 +745,9 @@
                             </WaveformIdData>
                         </waveforms>
                     </group>
-                    <group name="GreenPAK -&gt; CNT5/DLY5 -&gt; nOUT" customGroupLayout="true">
+                    <group name="GreenPAK -&gt; CNT7/DLY7 -&gt; nOUT" customGroupLayout="true">
                         <waveforms>
-                            <WaveformIdData analysisType="0" pinIdStr="2;16;5;0" xAxisBinding="0;;-1;-1;-1">
+                            <WaveformIdData analysisType="0" pinIdStr="2;16;7;0" xAxisBinding="0;;-1;-1;-1">
                                 <parameters/>
                             </WaveformIdData>
                         </waveforms>
@@ -729,30 +759,23 @@
                             </WaveformIdData>
                         </waveforms>
                     </group>
-                    <group name="GreenPAK -&gt; PIN 10 &lt;- EXT. OUT" customGroupLayout="false">
+                    <group name="GreenPAK -&gt; CNT5/DLY5 -&gt; nOUT" customGroupLayout="true">
                         <waveforms>
-                            <WaveformIdData analysisType="0" pinIdStr="100;45;0;10" xAxisBinding="0;;-1;-1;-1">
+                            <WaveformIdData analysisType="0" pinIdStr="2;16;5;0" xAxisBinding="0;;-1;-1;-1">
                                 <parameters/>
                             </WaveformIdData>
                         </waveforms>
                     </group>
-                    <group name="GreenPAK -&gt; 3-L5 -&gt; OUT" customGroupLayout="true">
+                    <group name="GreenPAK -&gt; CNT4/DLY4 -&gt; OUT" customGroupLayout="true">
                         <waveforms>
-                            <WaveformIdData analysisType="0" pinIdStr="1;7;5;0" xAxisBinding="0;;-1;-1;-1">
+                            <WaveformIdData analysisType="0" pinIdStr="2;16;4;0" xAxisBinding="0;;-1;-1;-1">
                                 <parameters/>
                             </WaveformIdData>
                         </waveforms>
                     </group>
-                    <group name="GreenPAK -&gt; OSC0 -&gt; CLK /512" customGroupLayout="true">
+                    <group name="V5 -&gt; n+" customGroupLayout="true">
                         <waveforms>
-                            <WaveformIdData analysisType="0" pinIdStr="0;21;0;10" xAxisBinding="0;;-1;-1;-1">
-                                <parameters/>
-                            </WaveformIdData>
-                        </waveforms>
-                    </group>
-                    <group name="V3 -&gt; n+" customGroupLayout="true">
-                        <waveforms>
-                            <WaveformIdData analysisType="0" pinIdStr="5;43;3;0" xAxisBinding="0;;-1;-1;-1">
+                            <WaveformIdData analysisType="0" pinIdStr="5;43;5;0" xAxisBinding="0;;-1;-1;-1">
                                 <parameters/>
                             </WaveformIdData>
                         </waveforms>
@@ -764,9 +787,16 @@
                             </WaveformIdData>
                         </waveforms>
                     </group>
-                    <group name="GreenPAK -&gt; PIN 20 -&gt; OUT" customGroupLayout="false">
+                    <group name="V3 -&gt; n+" customGroupLayout="true">
                         <waveforms>
-                            <WaveformIdData analysisType="0" pinIdStr="0;2;20;1" xAxisBinding="0;;-1;-1;-1">
+                            <WaveformIdData analysisType="0" pinIdStr="5;43;3;0" xAxisBinding="0;;-1;-1;-1">
+                                <parameters/>
+                            </WaveformIdData>
+                        </waveforms>
+                    </group>
+                    <group name="GreenPAK -&gt; 3-L5 -&gt; OUT" customGroupLayout="true">
+                        <waveforms>
+                            <WaveformIdData analysisType="0" pinIdStr="1;7;5;0" xAxisBinding="0;;-1;-1;-1">
                                 <parameters/>
                             </WaveformIdData>
                         </waveforms>
@@ -774,6 +804,20 @@
                     <group name="GreenPAK -&gt; 3-L4 -&gt; OUT" customGroupLayout="false">
                         <waveforms>
                             <WaveformIdData analysisType="0" pinIdStr="1;7;4;0" xAxisBinding="0;;-1;-1;-1">
+                                <parameters/>
+                            </WaveformIdData>
+                        </waveforms>
+                    </group>
+                    <group name="GreenPAK -&gt; POR -&gt; OUT [POR]" customGroupLayout="true">
+                        <waveforms>
+                            <WaveformIdData analysisType="0" pinIdStr="0;20;0;0" xAxisBinding="0;;-1;-1;-1">
+                                <parameters/>
+                            </WaveformIdData>
+                        </waveforms>
+                    </group>
+                    <group name="GreenPAK -&gt; OSC0 -&gt; CLK /512" customGroupLayout="true">
+                        <waveforms>
+                            <WaveformIdData analysisType="0" pinIdStr="0;21;0;10" xAxisBinding="0;;-1;-1;-1">
                                 <parameters/>
                             </WaveformIdData>
                         </waveforms>
@@ -836,6 +880,12 @@
                         </WaveformIdData>
                     </waveform>
                     <waveform>
+                        <waveformSetup penColor="#26e056" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                        <WaveformIdData analysisType="0" pinIdStr="2;16;4;0" xAxisBinding="0;;-1;-1;-1">
+                            <parameters/>
+                        </WaveformIdData>
+                    </waveform>
+                    <waveform>
                         <waveformSetup penColor="#fda740" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
                         <WaveformIdData analysisType="0" pinIdStr="2;16;5;0" xAxisBinding="0;;-1;-1;-1">
                             <parameters/>
@@ -844,6 +894,12 @@
                     <waveform>
                         <waveformSetup penColor="#46f8ff" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
                         <WaveformIdData analysisType="0" pinIdStr="2;16;6;0" xAxisBinding="0;;-1;-1;-1">
+                            <parameters/>
+                        </WaveformIdData>
+                    </waveform>
+                    <waveform>
+                        <waveformSetup penColor="#9bc74d" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                        <WaveformIdData analysisType="0" pinIdStr="2;16;7;0" xAxisBinding="0;;-1;-1;-1">
                             <parameters/>
                         </WaveformIdData>
                     </waveform>
@@ -875,7 +931,7 @@
                 <components>
                     <component simulationModel="" defaultSimulationModel="">
                         <componentId category="5" componentType="0" componentNumber="1"/>
-                        <componentUiSettings isFlippedHorizontally="false" isFlippedVertically="false" visible="true" position="(492.126;-43.7541)" rotationState="0" sceneIndex="0"/>
+                        <componentUiSettings isFlippedHorizontally="false" isFlippedVertically="false" visible="true" position="(699.396;-41.7541)" rotationState="0" sceneIndex="0"/>
                         <schematicProps>
                             <param id="name" affinity="4" value="GND" defaultValue=""/>
                             <param id="mfg" affinity="4" value="" defaultValue=""/>
@@ -904,28 +960,8 @@
                         <instanceProps/>
                     </component>
                     <component simulationModel="" defaultSimulationModel="">
-                        <componentId category="5" componentType="0" componentNumber="4"/>
-                        <componentUiSettings isFlippedHorizontally="false" isFlippedVertically="false" visible="true" position="(-211.913;-98.2337)" rotationState="0" sceneIndex="0"/>
-                        <schematicProps>
-                            <param id="name" affinity="4" value="GND" defaultValue=""/>
-                            <param id="mfg" affinity="4" value="" defaultValue=""/>
-                            <param id="part_number" affinity="4" value="" defaultValue=""/>
-                        </schematicProps>
-                        <instanceProps/>
-                    </component>
-                    <component simulationModel="" defaultSimulationModel="">
-                        <componentId category="5" componentType="0" componentNumber="5"/>
-                        <componentUiSettings isFlippedHorizontally="false" isFlippedVertically="false" visible="true" position="(-325.721;112.312)" rotationState="0" sceneIndex="0"/>
-                        <schematicProps>
-                            <param id="name" affinity="4" value="GND" defaultValue=""/>
-                            <param id="mfg" affinity="4" value="" defaultValue=""/>
-                            <param id="part_number" affinity="4" value="" defaultValue=""/>
-                        </schematicProps>
-                        <instanceProps/>
-                    </component>
-                    <component simulationModel="" defaultSimulationModel="">
                         <componentId category="5" componentType="43" componentNumber="1"/>
-                        <componentUiSettings isFlippedHorizontally="false" isFlippedVertically="false" visible="true" position="(593.221;-94.9798)" rotationState="0" sceneIndex="0"/>
+                        <componentUiSettings isFlippedHorizontally="true" isFlippedVertically="false" visible="true" position="(614.962;-105.436)" rotationState="0" sceneIndex="0"/>
                         <schematicProps>
                             <param id="name" affinity="4" value="V1" defaultValue=""/>
                             <param id="mfg" affinity="4" value="" defaultValue=""/>
@@ -949,7 +985,7 @@
                     </component>
                     <component simulationModel="" defaultSimulationModel="">
                         <componentId category="5" componentType="43" componentNumber="2"/>
-                        <componentUiSettings isFlippedHorizontally="true" isFlippedVertically="false" visible="true" position="(590.564;-207.456)" rotationState="0" sceneIndex="0"/>
+                        <componentUiSettings isFlippedHorizontally="true" isFlippedVertically="false" visible="true" position="(614.962;-206.585)" rotationState="0" sceneIndex="0"/>
                         <schematicProps>
                             <param id="name" affinity="4" value="V2" defaultValue=""/>
                             <param id="mfg" affinity="4" value="" defaultValue=""/>
@@ -973,7 +1009,7 @@
                     </component>
                     <component simulationModel="" defaultSimulationModel="">
                         <componentId category="5" componentType="43" componentNumber="3"/>
-                        <componentUiSettings isFlippedHorizontally="false" isFlippedVertically="false" visible="true" position="(-118;-203)" rotationState="0" sceneIndex="0"/>
+                        <componentUiSettings isFlippedHorizontally="false" isFlippedVertically="false" visible="true" position="(257.56;-206.485)" rotationState="0" sceneIndex="0"/>
                         <schematicProps>
                             <param id="name" affinity="4" value="V3" defaultValue=""/>
                             <param id="mfg" affinity="4" value="" defaultValue=""/>
@@ -1020,18 +1056,18 @@
                             <param id="repeat_count" affinity="1" value="2" defaultValue=""/>
                             <param id="end_state" affinity="1" value="1" defaultValue=""/>
                             <param id="lp_mode" affinity="1" value="0" defaultValue=""/>
-                            <param id="lp_level_adj" affinity="1" value="0" defaultValue=""/>
+                            <param id="lp_level_adj" affinity="1" value="1" defaultValue=""/>
                             <param id="lp_max_voltage" affinity="3" value="3.3" defaultValue=""/>
                             <param id="lp_min_voltage" affinity="3" value="0" defaultValue=""/>
                             <param id="lp_rise_time" affinity="3" value="1u" defaultValue=""/>
                             <param id="lp_fall_time" affinity="3" value="1u" defaultValue=""/>
-                            <param id="lp_values" affinity="4" value="2.5 3.3 1|5 0 0" defaultValue=""/>
+                            <param id="lp_values" affinity="4" value="2.5 3.3 0|3.5 0 0|9 3.3 0" defaultValue=""/>
                         </schematicProps>
                         <instanceProps/>
                     </component>
                     <component simulationModel="" defaultSimulationModel="">
                         <componentId category="5" componentType="43" componentNumber="5"/>
-                        <componentUiSettings isFlippedHorizontally="false" isFlippedVertically="false" visible="true" position="(-319.587;-200.948)" rotationState="0" sceneIndex="0"/>
+                        <componentUiSettings isFlippedHorizontally="false" isFlippedVertically="false" visible="true" position="(-221.122;-213.147)" rotationState="0" sceneIndex="0"/>
                         <schematicProps>
                             <param id="name" affinity="4" value="V5" defaultValue=""/>
                             <param id="mfg" affinity="4" value="" defaultValue=""/>
@@ -1054,45 +1090,24 @@
                             <param id="lp_min_voltage" affinity="3" value="0" defaultValue=""/>
                             <param id="lp_rise_time" affinity="3" value="1u" defaultValue=""/>
                             <param id="lp_fall_time" affinity="3" value="1u" defaultValue=""/>
-                            <param id="lp_values" affinity="4" value="1 3.3 1|4 0 0|2.5 3.3 1|0.5 0 0|0.5 3.3 1|0.5 0 0" defaultValue=""/>
+                            <param id="lp_values" affinity="4" value="10 3.3 1|4 0 0|5 3.3 1|0.5 0 0|0.5 3.3 1|0.5 0 0" defaultValue=""/>
                         </schematicProps>
                         <instanceProps/>
                     </component>
                 </components>
                 <networks>
-                    <network networkId="18" name="NET18">
-                        <connections>
-                            <connection connectionType="0" routingType="0" sceneIndex="0">
-                                <from>
-                                    <IdDto category="5" componentType="0" componentNumber="4" pinNumber="0"/>
-                                </from>
-                                <to>
-                                    <IdDto category="100" componentType="45" componentNumber="0" pinNumber="20"/>
-                                </to>
-                                <path>
-                                    <point value="(-196;-120)"/>
-                                    <point value="(-196;-129)"/>
-                                    <point value="(-130;-129)"/>
-                                    <point value="(-130;-123)"/>
-                                </path>
-                            </connection>
-                        </connections>
-                    </network>
                     <network networkId="8" name="NET8">
                         <connections>
                             <connection connectionType="0" routingType="0" sceneIndex="0">
                                 <from>
-                                    <IdDto category="5" componentType="43" componentNumber="5" pinNumber="0"/>
+                                    <IdDto category="100" componentType="45" componentNumber="0" pinNumber="14"/>
                                 </from>
                                 <to>
-                                    <IdDto category="100" componentType="45" componentNumber="0" pinNumber="19"/>
+                                    <IdDto category="5" componentType="43" componentNumber="2" pinNumber="0"/>
                                 </to>
                                 <path>
-                                    <point value="(-257;-180)"/>
-                                    <point value="(-181.849;-180)"/>
-                                    <point value="(-181.849;-242)"/>
-                                    <point value="(21;-242)"/>
-                                    <point value="(21;-123)"/>
+                                    <point value="(582;-186)"/>
+                                    <point value="(593;-186)"/>
                                 </path>
                             </connection>
                         </connections>
@@ -1107,9 +1122,9 @@
                                     <IdDto category="5" componentType="0" componentNumber="1" pinNumber="0"/>
                                 </to>
                                 <path>
-                                    <point value="(571;-74)"/>
-                                    <point value="(508;-74)"/>
-                                    <point value="(508;-66)"/>
+                                    <point value="(678;-84)"/>
+                                    <point value="(715;-84)"/>
+                                    <point value="(715;-64)"/>
                                 </path>
                             </connection>
                         </connections>
@@ -1124,8 +1139,8 @@
                                     <IdDto category="100" componentType="45" componentNumber="0" pinNumber="1"/>
                                 </to>
                                 <path>
-                                    <point value="(656;-74)"/>
-                                    <point value="(675;-74)"/>
+                                    <point value="(593;-84)"/>
+                                    <point value="(582;-85)"/>
                                 </path>
                             </connection>
                         </connections>
@@ -1134,14 +1149,15 @@
                         <connections>
                             <connection connectionType="0" routingType="0" sceneIndex="0">
                                 <from>
-                                    <IdDto category="5" componentType="43" componentNumber="2" pinNumber="0"/>
+                                    <IdDto category="5" componentType="43" componentNumber="5" pinNumber="0"/>
                                 </from>
                                 <to>
-                                    <IdDto category="100" componentType="45" componentNumber="0" pinNumber="14"/>
+                                    <IdDto category="100" componentType="45" componentNumber="0" pinNumber="20"/>
                                 </to>
                                 <path>
-                                    <point value="(569;-186)"/>
-                                    <point value="(499;-186)"/>
+                                    <point value="(-158;-192)"/>
+                                    <point value="(-130;-192)"/>
+                                    <point value="(-130;-123)"/>
                                 </path>
                             </connection>
                         </connections>
@@ -1158,7 +1174,7 @@
                                 <path>
                                     <point value="(715;-170)"/>
                                     <point value="(715;-186)"/>
-                                    <point value="(654;-186)"/>
+                                    <point value="(678;-186)"/>
                                 </path>
                             </connection>
                         </connections>
