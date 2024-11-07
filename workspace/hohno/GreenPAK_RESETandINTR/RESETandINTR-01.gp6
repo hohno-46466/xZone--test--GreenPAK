@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GPDProject version="33" oldestCompatibleVersion="32" GPDVersion="6.44.001" lastChange="27 Oct 2024 04:54:57" projectChecksumState="1" projectChecksum="317be378">
+<GPDProject version="33" oldestCompatibleVersion="32" GPDVersion="6.44.001" lastChange="6 Nov 2024 10:40:29" projectChecksumState="1" projectChecksum="aad61ea4">
     <generalProjectSettings/>
     <chip family="04" type="06" friendlyName="GreenPAK 6" partNumber="36" package="7">
-        <nvmData registerLenght="2048">0 0 0 0 0 0 0 0 0 0 0 0 0 BE 6D 97 5F 92 A4 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9 0 15 0 98 0 50 31 0 0 0 0 E0 3 0 0 0 0 0 0 0 0 0 17 0 0 0 30 FE E6 BF FD 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 30 30 0 30 30 30 30 0 0 84 30 30 0 30 4 4 4 50 33 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 17 22 30 C C4 0 0 0 0 0 0 0 0 0 0 0 0 0 80 7F 7F 0 0 0 0 0 0 0 0 0 20 0 1 0 0 0 2 1 0 0 2 0 1 0 0 2 1 10 0 49 8 1 2 0 19 9 19 0 45 8 5 21 0 89 0 7 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 A5</nvmData>
+        <nvmData registerLenght="2048">0 0 0 0 0 0 0 0 0 0 0 0 0 BE 6D 97 5F 92 A4 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9 0 15 0 98 0 50 31 0 0 0 0 E0 3 0 0 0 0 0 0 0 0 0 17 0 0 0 30 FE E6 5F FD 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 30 30 0 30 30 30 30 0 0 84 30 30 0 30 4 4 4 50 33 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 17 22 30 C F8 0 0 0 0 0 0 0 0 0 0 0 0 0 80 7F 7F 0 0 0 0 0 0 0 0 0 20 0 1 0 0 0 2 1 0 0 2 0 1 0 0 2 1 10 0 49 8 1 2 0 19 9 19 0 45 8 5 21 0 89 0 7 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 A5</nvmData>
         <eepromData id="0">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</eepromData>
-        <checksum crc32="0x9FE45035" version="7"/>
+        <checksum crc32="0xF8A7EE28" version="7"/>
         <VDDItem id="0">
             <item id="0" caption="VDD (PIN 1)">
                 <graphics pos="(520.34,-95.08)" angle="0" flipping="1" hidden="0" tOrigin="(20.00,10.00)"/>
@@ -92,7 +92,7 @@
         </IOPad>
         <IOPad id="17" useCaseMode="2">
             <item id="17" caption="PIN 18 (IO12)">
-                <graphics pos="(136.93,-90.87)" angle="270" flipping="1" hidden="0" tOrigin="(20.00,10.00)"/>
+                <graphics pos="(169.71,-93.21)" angle="270" flipping="1" hidden="0" tOrigin="(20.00,10.00)"/>
             </item>
         </IOPad>
         <IOPad id="18" useCaseMode="1">
@@ -388,10 +388,10 @@
             <points>(26.00,-38.00); (26.00,-15.00); (43.00,-15.00)</points>
         </wire>
         <wire output="83" input="559" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="17" wireText="NET17" wireState="0">
-            <points>(140.00,-15.00); (146.00,-15.00); (146.00,21.00); (17.37,21.00); (17.37,37.00); (38.00,37.00)</points>
+            <points>(140.00,-15.00); (162.39,-15.00); (162.39,21.00); (17.37,21.00); (17.37,37.00); (38.00,37.00)</points>
         </wire>
         <wire output="83" input="558" autoRouting="0" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="17" wireText="NET17" wireState="0">
-            <points>(140.00,-15.00); (146.00,-15.00); (146.00,21.00); (16.55,21.00); (16.55,48.00); (38.00,48.00)</points>
+            <points>(140.00,-15.00); (161.22,-15.00); (161.22,21.00); (16.55,21.00); (16.55,48.00); (38.00,48.00)</points>
         </wire>
         <wire output="31" input="557" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="14" wireText="NET14" wireState="0">
             <points>(-29.00,16.00); (-29.96,16.00); (-29.96,59.00); (38.00,59.00)</points>
@@ -403,10 +403,7 @@
             <points/>
         </wire>
         <wire output="164" input="643" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="15" wireText="NET15" wireState="0">
-            <points>(116.00,48.00); (150.00,48.00); (150.00,231.00); (224.00,231.00)</points>
-        </wire>
-        <wire output="83" input="533" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="17" wireText="NET17" wireState="0">
-            <points>(140.00,-15.00); (152.00,-15.00); (152.00,-39.00)</points>
+            <points>(116.00,48.00); (137.12,48.00); (137.12,231.00); (224.00,231.00)</points>
         </wire>
         <wire output="0" input="531" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" lineType="2" protected="1" CWLid="-1" wireText="VDD" wireState="1">
             <points/>
@@ -425,6 +422,9 @@
         </wire>
         <wire output="200" input="527" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="18" wireText="NET18" wireState="0">
             <points>(400.00,320.00); (414.00,320.00); (414.00,249.00); (534.00,249.00); (534.00,-27.00); (366.00,-27.00); (366.00,-42.00)</points>
+        </wire>
+        <wire output="164" input="533" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="15" wireText="NET15" wireState="0">
+            <points>(116.00,48.00); (185.00,48.00); (185.00,-41.00)</points>
         </wire>
     </chip>
     <emulatorConfiguration version="4" oldestCompatibleVersion="4">
@@ -701,11 +701,21 @@
                     <pinProbe instrumentId="17" measurementFlags="1">
                         <IdDto category="2" componentType="16" componentNumber="4" pinNumber="0"/>
                     </pinProbe>
+                    <pinProbe instrumentId="18" measurementFlags="1">
+                        <IdDto category="5" componentType="43" componentNumber="1" pinNumber="0"/>
+                    </pinProbe>
                 </pinProbes>
                 <groups>
                     <group name="GreenPAK -&gt; PIN 10 &lt;- EXT. OUT" customGroupLayout="true">
                         <waveforms>
                             <WaveformIdData analysisType="0" pinIdStr="100;45;0;10" xAxisBinding="0;;-1;-1;-1">
+                                <parameters/>
+                            </WaveformIdData>
+                        </waveforms>
+                    </group>
+                    <group name="V5 -&gt; n+" customGroupLayout="true">
+                        <waveforms>
+                            <WaveformIdData analysisType="0" pinIdStr="5;43;5;0" xAxisBinding="0;;-1;-1;-1">
                                 <parameters/>
                             </WaveformIdData>
                         </waveforms>
@@ -773,13 +783,6 @@
                             </WaveformIdData>
                         </waveforms>
                     </group>
-                    <group name="V5 -&gt; n+" customGroupLayout="true">
-                        <waveforms>
-                            <WaveformIdData analysisType="0" pinIdStr="5;43;5;0" xAxisBinding="0;;-1;-1;-1">
-                                <parameters/>
-                            </WaveformIdData>
-                        </waveforms>
-                    </group>
                     <group name="V4 -&gt; n+" customGroupLayout="true">
                         <waveforms>
                             <WaveformIdData analysisType="0" pinIdStr="5;43;4;0" xAxisBinding="0;;-1;-1;-1">
@@ -818,6 +821,13 @@
                     <group name="GreenPAK -&gt; OSC0 -&gt; CLK /512" customGroupLayout="true">
                         <waveforms>
                             <WaveformIdData analysisType="0" pinIdStr="0;21;0;10" xAxisBinding="0;;-1;-1;-1">
+                                <parameters/>
+                            </WaveformIdData>
+                        </waveforms>
+                    </group>
+                    <group name="V1 -&gt; n+" customGroupLayout="false">
+                        <waveforms>
+                            <WaveformIdData analysisType="0" pinIdStr="5;43;1;0" xAxisBinding="0;;-1;-1;-1">
                                 <parameters/>
                             </WaveformIdData>
                         </waveforms>
@@ -900,6 +910,12 @@
                     <waveform>
                         <waveformSetup penColor="#9bc74d" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
                         <WaveformIdData analysisType="0" pinIdStr="2;16;7;0" xAxisBinding="0;;-1;-1;-1">
+                            <parameters/>
+                        </WaveformIdData>
+                    </waveform>
+                    <waveform>
+                        <waveformSetup penColor="#fda740" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
+                        <WaveformIdData analysisType="0" pinIdStr="5;43;1;0" xAxisBinding="0;;-1;-1;-1">
                             <parameters/>
                         </WaveformIdData>
                     </waveform>
@@ -1141,23 +1157,6 @@
                                 <path>
                                     <point value="(593;-84)"/>
                                     <point value="(582;-85)"/>
-                                </path>
-                            </connection>
-                        </connections>
-                    </network>
-                    <network networkId="4" name="NET4">
-                        <connections>
-                            <connection connectionType="0" routingType="0" sceneIndex="0">
-                                <from>
-                                    <IdDto category="5" componentType="43" componentNumber="5" pinNumber="0"/>
-                                </from>
-                                <to>
-                                    <IdDto category="100" componentType="45" componentNumber="0" pinNumber="20"/>
-                                </to>
-                                <path>
-                                    <point value="(-158;-192)"/>
-                                    <point value="(-130;-192)"/>
-                                    <point value="(-130;-123)"/>
                                 </path>
                             </connection>
                         </connections>
